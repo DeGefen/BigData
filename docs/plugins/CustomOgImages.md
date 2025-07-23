@@ -80,6 +80,7 @@ You will also be passed an array containing a header and a body font (where the 
 
 An example of a component using the header font could look like this:
 
+
 ```tsx title="socialImage.tsx"
 export const myImage: SocialImageOptions["imageStructure"] = (...) => {
   return <p style={{ fontFamily: fonts[0].name }}>Cool Header!</p>
@@ -236,6 +237,7 @@ export const customImage: SocialImageOptions["imageStructure"] = (
 
 The following example includes a customized social image with a custom background and formatted date:
 
+{% raw %}
 ```typescript title="custom-og.tsx"
 export const og: SocialImageOptions["Component"] = (
   cfg: GlobalConfiguration,
@@ -358,3 +360,4 @@ export const og: SocialImageOptions["Component"] = (
   )
 }
 ```
+{% endraw %}
