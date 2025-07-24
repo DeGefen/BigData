@@ -2,7 +2,7 @@
 aliases:
   - Hive
 ---
-> [[Hadoop Eccosystem|Systems based on MapReduce]]
+> [[Hadoop Ecosystem|Systems based on MapReduce]]
 
 ### Apache Hive
 ##### **Key Features**
@@ -32,7 +32,6 @@ aliases:
 ![[Screenshot 2025-07-23 at 18.27.30.png|]]
 
 ##### Hive Usage
-{% raw %}
 ```
 #Start a hive shell:
 $hive
@@ -58,4 +57,3 @@ $hive -e 'SELECT name FROM mta;'
 #Execute script from file
 $hive -f hive_script.txt
 ```
-{% endraw %}

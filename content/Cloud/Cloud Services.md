@@ -14,7 +14,7 @@ Introduces three related architectures:
     - Each handles a specific function.
     
 3. **Clustered Computing** – a large task is **split into sub-tasks** running on **multiple nodes**.
-    - Used in Big Data systems like **NoSQL databases**.
+    - Used in Big Data systems like **[[NoSQL]] databases**.
 
 ##### Scaling a Software System
 Two ways to handle growing demand:
@@ -24,7 +24,7 @@ Two ways to handle growing demand:
 	
 - **Scale Out**: Add more machines to share the work.
 	- Add **redundant servers** or use **cluster computing**.
-	- Each server can be **standalone** (like a web server), or part of a **coordinated system** (like a NoSQL cluster).
+	- Each server can be **standalone** (like a web server), or part of a **coordinated system** (like a [[NoSQL]] cluster).
 	- More fault-tolerant and scalable than vertical scaling.
 
 - Tradeoff:
@@ -54,5 +54,3 @@ When deploying to the cloud, you have options:
 1. **Vanilla Node**: Raw VM – you install everything.
 2. **Cloud VM**: VM with pre-installed software.
 3. **Managed Service**: Cloud provider handles setup, scaling, updates (e.g., [[Amazon RDS|AWS RDS]], Google BigQuery).
-
-> Next [[Cloud Computing]]

@@ -10,4 +10,4 @@
 > 2. [[MapReduce]]
 > 3. [[Yarn]]
 
-[[Hadoop Eccosystem]]
+> Related [[Hadoop Ecosystem]]

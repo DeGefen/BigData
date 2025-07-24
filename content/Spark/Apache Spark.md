@@ -2,8 +2,7 @@
 aliases:
   - Spark
 ---
-> [[Hadoop Eccosystem|Systems based on MapReduce]]
-
+> [[Hadoop Ecosystem#Systems that replace MapReduce|Systems that replace MapReduce]]
 ## Apache Spark
 > Apache Spark is a **fast**, **general-purpose**, **open-source** cluster computing system designed for large-scale data processing.
 
@@ -22,6 +21,19 @@ aliases:
 | **Fault tolerance** | Efficient recovery via lineage                                            | Slower fault recovery via re-execution |
 | **Runs Everywhere** | Runs on [[Hadoop]], Apache Mesos, Kubernetes, Standalone or in the cloud. |                                        |
 
+##### Data Sharing 
+**In [[Hadoop]] [[MapReduce]]**
+![[Screenshot 2025-07-23 at 19.11.44.png|500]]
+>Every iteration or query **reads input from [[HDFS]]**, processes it, and **writes the result back to [[HDFS]]**.
+
+**In Spark**
+![[Screenshot 2025-07-23 at 19.12.57.png|500]]
+>Spark uses Resilient Distributed Datasets ([[RDD]]s), on RAM across cluster nodes.
+>
+>Once input data is **loaded and processed into memory**, it can be reused multiple times by different queries or iterations **without re-reading from disk**.
+>
+>10-100x faster than network and disk!
+
 ##### How is Spark Fault Tolerant?
 > Resilient Distributed Datasets ([[RDD]]s)
 
@@ -36,7 +48,6 @@ aliases:
 	- Each [[RDD]] keeps track of how it was derived. If a node fails, Spark **recomputes only the lost partition** from the original transformations.
 	
 ##### Writing Spark Code in Python
-{% raw %}
 ```
 # Spark Context Initialization
 from pyspark import SparkConf, SparkContext
@@ -53,19 +64,20 @@ distData = sc.parallelize(data)
 distFile = sc.textFile("data.txt")
 distFile = sc.textFile("folder/*.txt")
 ```
-{% endraw %}
 
-##### **RDD Transformations (Lazy)**
+##### **RDD Transformations **
 These create a new RDD from an existing one.
 
-| map(func)         | Apply function to each element               |
-| ----------------- | -------------------------------------------- |
-| filter(func)      | Keep elements where func returns True        |
-| flatMap(func)     | Like map, but flattens results               |
-| union(otherRDD)   | Union of two RDDs                            |
-| distinct()        | Remove duplicates                            |
-| reduceByKey(func) | Combine values for each key (key-value RDDs) |
-| sortByKey()       | Sort by keys                                 |
-| join(otherRDD)    | Join two key-value RDDs                      |
-| repartition(n)    | Re-distribute RDD to n partitions            |
+| [[spark.map(func).png\|map(func)]]                 | Apply function to each element               |
+| -------------------------------------------------- | -------------------------------------------- |
+| [[spark.filter(func).png\|filter(func)]]           | Keep elements where func returns True        |
+| [[spark.flatMap(func).png\|flatMap(func)]]         | Like map, but flattens results               |
+| union(otherRDD)                                    | Union of two RDDs                            |
+| distinct()                                         | Remove duplicates                            |
+| [[spark.reduceByKey(func).png\|reduceByKey(func)]] | Combine values for each key (key-value RDDs) |
+| sortByKey()                                        | Sort by keys                                 |
+| [[spark.join(otherRDD).png\|join(otherRDD)]]       | Join two key-value RDDs                      |
+| repartition(n)                                     | Re-distribute RDD to n partitions            |
+
 Transformations are **lazy** – they only execute when an action is triggered.
+![[Screenshot 2025-07-24 at 14.00.35.png|500]]

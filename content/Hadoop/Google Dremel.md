@@ -1,4 +1,4 @@
-> [[Hadoop Eccosystem|Systems based on MapReduce]]
+> [[Hadoop Ecosystem#Systems that replace MapReduce|Systems that replace MapReduce]]
 
 **Key Ideas**
 • Leverages columnar file format
@@ -23,5 +23,5 @@
 • Apache Dril (MapR)
 • Apache Impala (Cloudera)
 • Apache Tez (Hortonworks)
-• Presto (Facebook)
+• [[Intro to Data Science#**Presto**|Presto]] (Facebook)
 

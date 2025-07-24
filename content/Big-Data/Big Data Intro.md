@@ -1,3 +1,12 @@
+### Big Data
+>“An accumulation of data 
+>that is too large and complex
+>for processing by traditional
+>database management tools”
+>
+>**In Short:**
+>Big Data = too big for standard tools like Excel or regular SQL databases.
+
 ##### data vs. information
 - **Data** is just raw facts (like the number 42).
     - But 42 could mean: age, shoe size, stock amount, etc.

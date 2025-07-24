@@ -61,3 +61,18 @@ Transactions guarantee data validity despite errors & failures
 - Becomes **slow** with **big data**
 - **Less fault tolerant**
 - Not designed for **massive, distributed systems**
+
+##### The problem of RDBMS
+- RDBMS (Relational Database Management Systems) use:
+    - **Data files**: store the actual records
+    - **Index files**: enable efficient search
+    
+- **Scaling issues**:
+    - Adding more storage, CPU or RAM = **vertical scaling**
+        - Eventually hits physical or economic limits
+        
+    - **Indexes generally can’t span across nodes**
+        - Makes **horizontal scaling** nearly impossible
+        - Causes:
+            - Performance degradation
+            - Single point of failure

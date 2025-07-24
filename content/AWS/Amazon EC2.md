@@ -34,10 +34,10 @@ the cloud.
 	  ![[Screenshot 2025-07-23 at 16.52.08.png]]
 - **Instance Families** 
 
-| Family Type                       | Use Case<br>              |
-| --------------------------------- | ------------------------- |
-| General Purpose (M / T / A)       | Web servers               |
-| Compute Optimized (C)             | Analytics, gaming         |
-| Memory Optimized (R / X)          | High-performance DB       |
-| Accelerated Computing (P / G / F) | AI, ML, GPU compute       |
-| Storage Optimized (I)             | Big data, NoSQL databases |
+| Family Type                       | Use Case<br>                  |
+| --------------------------------- | ----------------------------- |
+| General Purpose (M / T / A)       | Web servers                   |
+| Compute Optimized (C)             | Analytics, gaming             |
+| Memory Optimized (R / X)          | High-performance DB           |
+| Accelerated Computing (P / G / F) | AI, ML, GPU compute           |
+| Storage Optimized (I)             | Big data, [[NoSQL]] databases |

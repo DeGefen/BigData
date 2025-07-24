@@ -14,14 +14,13 @@ Stores huge files (Typical file size GB-TB) across multiple machines.
 ##### HDFS File Formats
 - Text/CSV - No schema, no metadata
 - Json Records - metadata is stored with data
-- Avro Files - schema independent of data
+- [[Intro to Data Science#Binary / Optimized Formats|Avro Files]] - schema independent of data
 - Sequence Files - binary files (used as intermediate storage in M/R)
 - RC Files - Record Columnar files
-- ORC Files - Optimized RC files. Compress better
-- Parquet Files - Yet another RC file
+- [[Intro to Data Science#Binary / Optimized Formats|ORC Files]] - Optimized RC files. Compress better
+- [[Intro to Data Science#Binary / Optimized Formats|Parquet Files]] - Yet another RC file
 
 ##### HDFS Command Line
-{% raw %}
 ```
 # List files
 hadoop fs -ls /path
@@ -35,7 +34,7 @@ hadoop fs -cat /file
 # Upload file
 hadoop fs -copyFromLocal file.txt hdfs://...
 ```
-{% endraw %}
+
 #### HDFS Architecture – Main Components
 ##### **1.** NameNode (Master Node)
 - **Stores metadata** about the filesystem:
