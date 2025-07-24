@@ -1,6 +1,9 @@
 > This site contains notes on the course “***Introduction to Big Data***” by *Ran Silberman*.
 
 > ***Be aware*** that the notes are solely based on the slides themselves, with ChatGPT assisting in filling in the missing information!
+
+Work In Progress
+
 ##### Unit 1
 - [[Big Data Intro]]
 ##### Unit 2
