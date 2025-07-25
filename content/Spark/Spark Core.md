@@ -1,6 +1,6 @@
 ##### Word Count Example
 **Spark **
-```
+```python
 conf = SparkConf().setAppName(appName).setMaster(master)
 sc = SparkContext(conf=conf)
 
@@ -52,7 +52,7 @@ counts.saveAsTextFile("hdfs://user/hadoop/gutenberg-out")
 ##### **Spark Caching**
 >Because transformers are lazy, operations may be repeated
 >Used when the same [[RDD]] is reused multiple times.
-```
+```python
 # Without Caching
 lines = sc.textFile("data.txt")
 lineLengths = lines.map(lambda s: len(s))
@@ -62,7 +62,7 @@ totalLength = lineLengths.reduce(lambda a, b: a + b)
 average = totalLength / lines.count()
 ```
 
-```
+```python
 # With Caching
 lines = sc.textFile("data.txt")
 
@@ -86,4 +86,4 @@ average = totalLength / lines.count()
 	- Actions like [[spark.collect().png|collect]], [[spark.count().png|count]] and [[spark.reduce(func).png|reduce]] **Output returns to Driver program .**
 	- [[spark.saveAsTextFile(path).png|saveAsTextFile]]'s output **divides into multiple files**, one for **each partition** of the [[RDD]].
 
-
+![[Apache Spark#**RDD Transformations **]]

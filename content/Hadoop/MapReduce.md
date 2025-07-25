@@ -1,3 +1,9 @@
+---
+aliases:
+  - Hadoop MapReduce
+---
+> Part of [[Hadoop]]
+
 A programming model for processing big data in parallel.
 - Distributed processing - Job is run in parallel on several nodes
 - Run the process where the data is!
@@ -13,10 +19,14 @@ A programming model for processing big data in parallel.
 	
 - **Reduce** step: Aggregate / Sum the groups 
 	- e.g., sum word counts
+	- The **number of output files** is determined by the **number of Reducers** Each Reducer writes **one output file** 
+	- There are a **default** fixed number of **Reducers**, and it can be configured by the user.
 	
 MapReduce **runs code where the data is**, saving data transfer time.
 
 ![[Screenshot 2025-07-23 at 13.00.20.png]]
+
+
 ##### Example:
 From the sentence:
 > “how many cookies could a good cook cook if a good cook could cook cookies”
@@ -30,3 +40,4 @@ Steps:
     - Add up counts → ("cook", 4)
 
 ![[Screenshot 2025-07-23 at 13.01.20.png]]
+

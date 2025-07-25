@@ -6,7 +6,7 @@
 	- the entry point to Spark functionality.
     
 - **Operations**:
-    - **Transformations**: lazy operations that return new [[RDD]]s (e.g., map, filter)
+    - **Transformations**: [[Lazy Evaluation|Lazy]] operations that return new [[RDD]]s (e.g., map, filter)
     - **Actions**: trigger execution and return values (e.g., count, collect)
 
 ## SparkSQL
@@ -28,26 +28,26 @@
 | Usage          | Functional programming     | SQL-style operations                     |
 
 ###### **Create Spark Session**
-```
+```python
 # SparkSQL Context
 spark = SparkSession.builder().appName("My App").getOrCreate()
 ```
 
  ###### **Create DataFrames**
-```
+```python
 # Create Dataframe from RDD
 rdd = sc.parallelize([1,2,3])
 df = spark.createDataFrame(rdd)
 ```
 
-```
+```python
 # Create Dataframe from JSON
 df = spark.read.json("hdfs://usr/tmp/people.json")
 df.show()
 ```
 
 ###### **DataFrame Operations**
-```
+```python
 # Schema Inspection
 df.printSchema()
 
@@ -58,54 +58,54 @@ df.printSchema()
 # |-- college: string (nullable = true)
 ```
 
-```
+```python
 # Select Columns
 df.select("name").show()
 ```
 
-```
+```python
 # Filter Rows
 df.filter(df['age'] > 21).show()
 ```
 
-```
+```python
 # Sort Data
 df.orderBy(df['age'].desc()).show()
 ```
 
-```
+```python
 # Group and Aggregate
 df.groupBy("age").count().show()
 ```
 
-```
+```python
 # Aggregate Functions
 import pyspark.sql.functions as func
 df.groupBy("college").agg(func.max("age")).show()
 ```
 ###### Column Manipulation
-```
+```python
 # Cast Data Types
 df.withColumn("age", col("age").cast(IntegerType()))
 ```
 
-```
+```python
 # Add Column from Existing Data
 df.withColumn("age_next_year", col("age") + 1).show()
 ```
 
-```
+```python
 # Add Constant Column
 df.withColumn("nationality", lit("Israel")).show()
 ```
 
-```
+```python
 # Drop a Column
 df.drop("college").show()
 ```
 
 ###### Writing SQL Directly in Spark
-```
+```python
 # Register the DataFrame as a temporary view
 df.createOrReplaceTempView("people")
 
@@ -122,7 +122,7 @@ spark.sql("SELECT age, COUNT(age) FROM people GROUP BY age").show()
 | Language     | Spark-specific    | Standard SQL  |
 | Best for     | Programmers       | Data Analysts |
 ##### Hierarchical JSON Mapping
-```
+```JSON
 # Sample JSON
 [
   {
@@ -134,7 +134,9 @@ spark.sql("SELECT age, COUNT(age) FROM people GROUP BY age").show()
     "address": { "city": null, "state": "California" }
   }
 ]
+```
 
+```python
 # Flattened Output via SQL
 df = spark.read.json("/tmp/json/people.json")
 df.createOrReplaceTempView("people")
@@ -149,7 +151,7 @@ spark.sql("SELECT * FROM people").show()
 ```
 
 **Schema Preserves Structure**
-```
+```python
 df =spark.read.json("/tmp/json/people.json")
 
 df.printSchema()

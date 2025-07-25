@@ -32,7 +32,7 @@ aliases:
 ![[Screenshot 2025-07-23 at 18.27.30.png|]]
 
 ##### Hive Usage
-```
+```python
 #Start a hive shell:
 $hive
 

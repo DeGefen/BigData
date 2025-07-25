@@ -7,6 +7,11 @@
 >**In Short:**
 >Big Data = too big for standard tools like Excel or regular SQL databases.
 
+- Data becomes ***BigData*** when the data is expected to grow unpredictably in the future and will require Big Data processing methods
+	
+- Every thing that we can do on small scale data can be done on Big Data, but we might need to add more complex tools and methods to handle it.
+
+---
 ##### data vs. information
 - **Data** is just raw facts (like the number 42).
     - But 42 could mean: age, shoe size, stock amount, etc.
@@ -14,6 +19,7 @@
 - **Information** is when you give meaning to the data.
     - Example: “Age = 42” gives context and becomes useful.
 
+---
 ##### Big Data implementations
 - **Delta** – *Sentiment analysis* (e.g., of customer feedback).
 - **Netflix** – *User Behavioral Analysis* (e.g., what you watch and when).
@@ -25,6 +31,8 @@
 - **Hospitals** – Diagnosing diseases using *machine learning* on images.
 - **Amazon** – *Price optimization*.
 - **Facebook** – Targeted advertising using *user profiling*.
+
+---
 ##### Design Principles for Big Data
 1. **Horizontal Growth** – Add more machines instead of stronger ones.
 2. **Distributed Processing** – Split work across machines.
@@ -33,9 +41,9 @@
 5. **Recover from Failures** – Systems should self-heal.
 6. **Idempotency** – Running the same job twice shouldn’t break results.
 
+---
 ##### Big Data SLA (Service Level Agreement)
 define performance expectations
-
 - **Reliability** – Will the data be there?
 - **Consistency** – Is the data accurate across systems?
 - **Availability** – Is the system always accessible?
@@ -48,3 +56,4 @@ define performance expectations
 	- **Performance**
 
 > Next [[Cloud Services]]
+

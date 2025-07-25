@@ -46,11 +46,14 @@ aliases:
 	- Consumers can rewind to reprocess older data.
 	- Ideal for fault tolerance and debugging.
 	![[Screenshot 2025-07-24 at 19.22.29.png|300]]
+	- Kafka will delete an event after the configured retention period (e.g., 7 days) or when the topic reaches its size limit.
 
+> Kafka supports ***scalability*** by using ***partitioned*** topics, ***consumer*** groups, and distributed ***brokers*** to **enable parallel data ingestion and processing.**
 ### The Order Problem
 - Events are ordered **within** each partition.
 - But order is **not guaranteed across partitions**.
-
+- Events in different partitions may arrive out of order. and read out of order.
+	
 **Example:** HTTP Session “Statefull” order of events:
 	1. Get form
 	2. Submit form

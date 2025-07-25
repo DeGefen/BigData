@@ -48,7 +48,7 @@ aliases:
 	- Each [[RDD]] keeps track of how it was derived. If a node fails, Spark **recomputes only the lost partition** from the original transformations.
 	
 ##### Writing Spark Code in Python
-```
+```python
 # Spark Context Initialization
 from pyspark import SparkConf, SparkContext
 
@@ -79,5 +79,8 @@ These create a new RDD from an existing one.
 | [[spark.join(otherRDD).png\|join(otherRDD)]]       | Join two key-value RDDs                      |
 | repartition(n)                                     | Re-distribute RDD to n partitions            |
 
-Transformations are **lazy** – they only execute when an action is triggered.
+Transformations are **[[Lazy Evaluation|Lazy]]** – they only execute when an action is triggered.
 ![[Screenshot 2025-07-24 at 14.00.35.png|500]]
+
+> Related: [[Spark Core]]
+

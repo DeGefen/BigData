@@ -1,9 +1,13 @@
-**YARN (Yet Another Resource Negotiator)** 
-is [[Hadoop]]’s cluster resource management system
+---
+aliases:
+  - Hadoop Yarn
+---
+> Part of [[Hadoop]]
+## **YARN (Yet Another Resource Negotiator)** 
+> [[Hadoop]]’s cluster resource management system
 - Multiple jobs running simultaneously
 - Multiple jobs use same resources (disk, CPU, memory)
 - Assign resources to jobs and tasks exclusively
-
 ##### YARN is in charge of:
 1. Allocates Resources
 2. Schedules Jobs
@@ -26,10 +30,16 @@ is [[Hadoop]]’s cluster resource management system
 	- a logical bundle of resources (e.g., CPU, Memory) that is allocated by the ResourceManager
 
 ![[Screenshot 2025-07-23 at 13.29.37.png]]
-
 ##### YARN ecosystem
 Yarn can run other applications beside Hadoop [[MapReduce]], that can
 integrate to the Hadoop ecosystem:
 • Apache Storm (Data Streaming engine)
 • [[Apache Spark]] (Data Batch and streaming engine)
 • Apache Solr (Search platform)
+
+#### Hadoop Cluster in Comparison to Web Server Cluster
+- **Web Server cluster:**
+	- each server **operates independently** and handles requests on its own.
+	
+- **Hadoop cluster:** 
+	- there is **inter-dependence** between components and servers that collaborate for distributed data processing and storage.

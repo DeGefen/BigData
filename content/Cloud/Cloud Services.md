@@ -15,6 +15,7 @@ Introduces three related architectures:
     
 3. **Clustered Computing** – a large task is **split into sub-tasks** running on **multiple nodes**.
     - Used in Big Data systems like **[[NoSQL]] databases**.
+    - > Allows ***scalability***, ***High Availability***, and ***Parallel Processing.***
 
 ##### Scaling a Software System
 Two ways to handle growing demand:

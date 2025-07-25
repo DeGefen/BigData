@@ -8,7 +8,7 @@
 ##### Deployment Models in the Cloud
 - **IaaS** (Infrastructure as a Service):
 	- Virtual machines, storage, networks
-	- e.g., Amazon EC2.
+	- e.g., [[Amazon EC2]].
 	
 - **PaaS** (Platform as a Service):
 	- Managed environments for building apps

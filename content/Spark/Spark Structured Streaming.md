@@ -32,14 +32,14 @@
 
 ### Basic Examples
 
-```
+```python
 from pyspark.sql import SparkSession, functions as F
 
 spark = SparkSession.builder.appName("StructuredNetworkWordCount").getOrCreate()
 ```
 
 **Streaming with Socket input**
-```
+```python
 # Reads input from socket at port 9999
 socketDF = spark.readStream\
 		.format("socket")\ 
@@ -49,7 +49,7 @@ socketDF = spark.readStream\
 ```
 
 **Streaming with File Input**
-```
+```python
 # Read all the csv files written atomically in a directory
 userSchema = StructType().add("name", "string").add("age", "integer")
 

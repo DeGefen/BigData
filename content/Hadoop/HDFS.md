@@ -1,3 +1,8 @@
+---
+aliases:
+  - Hadoop HDFS
+---
+> Part of [[Hadoop]]
 ##### HDFS ([[Hadoop]] Distributed File System)
 Stores huge files (Typical file size GB-TB) across multiple machines.
 - Breaks files into **blocks** (typically 128 MB).
@@ -21,7 +26,7 @@ Stores huge files (Typical file size GB-TB) across multiple machines.
 - [[Intro to Data Science#Binary / Optimized Formats|Parquet Files]] - Yet another RC file
 
 ##### HDFS Command Line
-```
+```python
 # List files
 hadoop fs -ls /path
 
@@ -36,6 +41,7 @@ hadoop fs -copyFromLocal file.txt hdfs://...
 ```
 
 #### HDFS Architecture – Main Components
+[![HDFS Architecture - Detailed Explanation - InterviewBit|500](https://www.interviewbit.com/blog/wp-content/uploads/2022/06/HDFS-Architecture-1024x550.png)
 ##### **1.** NameNode (Master Node)
 - **Stores metadata** about the filesystem:
     - Filenames

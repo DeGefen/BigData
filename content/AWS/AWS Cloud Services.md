@@ -1,4 +1,4 @@
-[[Cloud Computing]]
+> Related [[Cloud Computing]]
 ## AWS Overview
 - over 175+ services
 - **Pay-as-you-go** pricing    
@@ -76,16 +76,14 @@
 - **Always free** (e.g., 1M free Lambda calls)
 - **12-months free** (introductory offer)
 - **Trial services**
-
-### **Billing Examples:**
+##### Billing Examples:
 - [[Amazon EC2|EC2]]: Pay for runtime only.
-
+	
 - [[Amazon S3|S3]]: Pay for
     - Storage volume
     - Requests (PUT/GET)
     - Data transfer
-
+    
 - [[Amazon Lambda|Lambda]]: Pay for
     - Number of requests
     - Execution time
-

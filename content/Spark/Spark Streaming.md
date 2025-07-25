@@ -51,7 +51,7 @@
 - i.e., lines from 0–1 → words from 0–1; lines from 1–2 → words from 1–2, and so on.
 
 ### Spark Streaming Example:
-```
+```python
 sc = SparkContext(appName="PythonStreamingKafkaWordCount") 
 ssc = StreamingContext(sc, 10)  # microbatch interval = 10 seconds
 topic = "mytopic"
