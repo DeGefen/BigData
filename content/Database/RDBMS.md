@@ -1,6 +1,5 @@
-[[Database Overview]]
-##### What is an RDBMS?
-**Relational Database Management System**:
+> Part of [[Database Overview]]
+##### What is an RDBMS (Relational Database Management System)?
 - Data is stored in **tables**:
     - **Rows** = records
     - **Columns** = fields
@@ -14,22 +13,22 @@ Ability to find record(s) quickly
 - Operations become efficient:
     - **Find by key** → O(log n)
     - **Fetch record by ID** → O(1)
-  
-Indexes = sorted references to data locations → like a book index.
+    
+- Indexes = sorted references to data locations → like a book index.
 
 ##### Relational model - Operations
-Relational databases support **CRUD**:
-- **C**reate
-- **R**ead
-- **U**pdate
-- **D**elete
+Relational databases support ***CRUD*** operations::
+- **C**reate - insert new data
+- **R**ead - retrieve data
+- **U**pdate - modify existing data
+- **D**elete - remove data
 
 Each operation uses both:
 - The **index** (to locate data)
 - The **data** itself (to read/write)
 
 ##### Relational model - Transactional
-Relational databases guarantee **transaction safety** with ACID:
+Relational databases guarantee **transaction safety** with ***ACID***:
 - **A**tomicity – all or nothing
 - **C**onsistency – valid data only
 - **I**solation – no interference from other transactions
@@ -37,9 +36,9 @@ Relational databases guarantee **transaction safety** with ACID:
 
 * Examples:
 	- Transferring money, Posting a tweet
-	- Both must either **succeed completely** or **fail completely**.
+		- Both must either **succeed completely** or **fail completely**.
 
-Transactions guarantee data validity despite errors & failures
+Transactions guarantee data validity despite errors & failures.
 
 ##### Relational model - SQL
 **SQL** is the language used to talk to relational databases.
@@ -52,7 +51,7 @@ Transactions guarantee data validity despite errors & failures
 #####  Pros and Cons of RDBMS
 **Pros:**
 - Structured data
-- ACID transactions
+- ***ACID*** transactions
 - Powerful SQL
 - Fast (for small/medium size)
 

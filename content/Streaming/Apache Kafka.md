@@ -4,7 +4,7 @@ aliases:
 ---
 ### Key Concepts
 - A **distributed, partitioned, replicated log**.
-- Used as a [[Screenshot 2025-07-24 at 19.04.08.png|central data bus]] for real-time pipelines.
+- Used as a central [[Data Bus]] for real-time pipelines.
 - High performance for both **write and read**.
 - Producers write to **[[Queues and Topics|topics]]**.
 - [[Queues and Topics|Topics]] are **partitioned** for scalability.

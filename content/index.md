@@ -1,6 +1,8 @@
-> This site contains notes on the course “***Introduction to Big Data***” by *Ran Silberman*.
+> This A Quartz-powered static website containing my notes for the course “***Introduction to Big Data***” by *Ran Silberman*.
 
-> ***Be aware*** that the notes are solely based on the slides themselves, with ChatGPT assisting in filling in the missing information!
+> Written using [Obsidian](https://obsidian.md/). To access and edit the notes you can download the "content" directory from here [Github](https://github.com/DeGefen/BigData).
+
+> ***Be aware*** that the notes are **solely based** on the slides themselves, with ChatGPT assisting in filling in the missing information!
 ##### Unit 1
 - [[Big Data Intro]]
 ##### Unit 2
@@ -51,4 +53,3 @@
 - [[Spark Streaming]]
 ##### Unit 11
 - [[Spark Structured Streaming]]
-

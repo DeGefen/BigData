@@ -23,8 +23,8 @@ aliases:
 	- This component manages the execution of containers on its node.
 	
 - **ApplicationMaster**
-	- manages the lifecycle of applications.
-	- handles job scheduling and monitors progress.
+	- Manages the lifecycle of applications.
+	- Handles job scheduling and monitors progress.
 	
 - **Resource Container**
 	- a logical bundle of resources (e.g., CPU, Memory) that is allocated by the ResourceManager

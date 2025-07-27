@@ -12,7 +12,7 @@
 	
 - **PaaS** (Platform as a Service):
 	- Managed environments for building apps
-	- e.g., AWS Elastic Beanstalk.
+	- e.g., Amazon Elastic Beanstalk, [[Amazon Lambda]].
 	
 - **[[Cloud Services#Selling Your Service |SaaS]]** (Software as a Service): 
 	- Full applications delivered over the internet
@@ -26,4 +26,4 @@
 ##### Cloud Providers Comparison
 ![[Screenshot 2025-07-23 at 13.54.07.png | 600]]
 
-> Next [[AWS Cloud Services]]
+> Related [[AWS Cloud Services]]

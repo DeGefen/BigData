@@ -16,16 +16,16 @@ A programming model for processing big data in parallel.
 	
 - **Combine** step: Reorganization of map output.
 	- Shuffle, Sort, Group
+	- e.g., group words by their value
 	
 - **Reduce** step: Aggregate / Sum the groups 
-	- e.g., sum word counts
-	- The **number of output files** is determined by the **number of Reducers** Each Reducer writes **one output file** 
+	-  e.g., sum word counts
+	- The **number of output files** is determined by the **number of reducers** Each Reducer writes **one output file** 
 	- There are a **default** fixed number of **Reducers**, and it can be configured by the user.
 	
 MapReduce **runs code where the data is**, saving data transfer time.
 
 ![[Screenshot 2025-07-23 at 13.00.20.png]]
-
 
 ##### Example:
 From the sentence:

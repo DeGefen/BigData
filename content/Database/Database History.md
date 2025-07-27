@@ -1,3 +1,4 @@
+> Part of [[Database Overview]]]]
 
 1. **Punch cards** – physical cards with holes. Early computers read data this way.![[Screenshot 2025-07-23 at 12.08.22.png | 400]]
 	

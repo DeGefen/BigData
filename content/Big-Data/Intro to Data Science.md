@@ -82,7 +82,7 @@ We already saw: [[Apache Hive]], [[Apache Spark]]
 ##### **Presto**:
 > [[Presto Architecture.png|Presto Architecture]]
 - [[Open Source]], distributed SQL query engine.
-- Connects to various data sources ([[HDFS]], [[Amazon S3|S3]], Kafka).
+- Connects to various data sources ([[HDFS]], [[Amazon S3|S3]], [[Apache Kafka|Kafka]]).
 ##### **Snowflake**:
 > [[snowflake Architecture.png|snowflake Architecture]]
 - [[LakeHouse]] - “Data Warehouse as a Service”.

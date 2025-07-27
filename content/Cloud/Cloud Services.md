@@ -12,10 +12,15 @@ Introduces three related architectures:
     
 2. **Micro-services** – the system is broken into **small, independent services** that communicate with each other.
     - Each handles a specific function.
+    - e.g., Netflix uses micro-services to handle different parts of its system (e.g., user management, video streaming, recommendations).
     
 3. **Clustered Computing** – a large task is **split into sub-tasks** running on **multiple nodes**.
     - Used in Big Data systems like **[[NoSQL]] databases**.
-    - > Allows ***scalability***, ***High Availability***, and ***Parallel Processing.***
+    - Allows:
+	    - ***scalability***
+	    - ***High Availability***
+	    - ***Parallel Processing.***
+    - e.g., [[Hadoop]] splits data processing tasks across many machines to handle large datasets efficiently.
 
 ##### Scaling a Software System
 Two ways to handle growing demand:
@@ -36,19 +41,19 @@ Two ways to handle growing demand:
 - **Install** - Software as installation
 	- e.g., Microsoft's office package
 
-- Saas - Software as a Service
+- SaaS - Software as a Service
 	- No need to install, just log in and use.
-	- e.g., Google Docs, Zoom, Dropbox.\
+	- e.g., Google Docs, Zoom, Dropbox.
 	 
-- Common SaaS pricing models:
-1. **Per-user** – Pay per person.
-2. **Tiered** – Fixed price for different feature levels.
-3. **Usage-based** – Pay for what you use (e.g., storage, API calls).
+	- Common SaaS pricing models:
+		1. **Per-user** – Pay per person.
+		2. **Tiered** – Fixed price for different feature levels.
+		3. **Usage-based** – Pay for what you use (e.g., storage, API calls).
 
 ##### Deployment Models
 Where you run your software:
 - **On-Premises**: Your own machines or rented servers (or VM’s).
-- **Cloud**: Run on virtual machines (VMs) from a cloud provider (e.g., AWS, Azure, GCP).
+- **Cloud**: Run on virtual machines (VMs) from a cloud provider (e.g., [[AWS Cloud Services|AWS]], Azure, GCP).
 
 ##### Cloud Deployment Options
 When deploying to the cloud, you have options:

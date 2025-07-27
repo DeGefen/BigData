@@ -17,7 +17,7 @@
 - Distributes services/data closer to users to reduce latency.
 ##### **Planning for Failure (Resiliency)**
 - **Storage**:
-	* S3 service is designed for failure.
+	* [[Amazon S3|S3]] service is designed for failure.
 	* Each file is copied to every [[AWS Cloud Services#**Availability Zone (AZ)**|AZ]] in the region. Thus you always have three copies of your file.
 	
 - **Compute**: 
@@ -73,7 +73,7 @@
 - **Reserved pricing** (discounted with commitment)
 - **Volume discount** (pay less when you use more)
 ##### Free Tier Options:
-- **Always free** (e.g., 1M free Lambda calls)
+- **Always free** (e.g., 1M free [[Amazon Lambda|Lambda]] calls)
 - **12-months free** (introductory offer)
 - **Trial services**
 ##### Billing Examples:

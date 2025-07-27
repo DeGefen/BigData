@@ -65,7 +65,18 @@ distFile = sc.textFile("data.txt")
 distFile = sc.textFile("folder/*.txt")
 ```
 
-##### **RDD Transformations **
+##### Actions
+These trigger computation and return results.
+
+| takeOrdered(n, func=None)                                | Get n elements in sorted order |
+| -------------------------------------------------------- | ------------------------------ |
+| [[spark.collect().png\|collect()]]                       | Return all elements as a list  |
+| [[spark.count().png\|count()]]                           | Count elements in RDD          |
+| [[spark.reduce(func).png\|reduce(func)]]                 | Combine elements using func    |
+| [[spark.saveAsTextFile(path).png\|saveAsTextFile(path)]] | Save RDD as text file          |
+| first()                                                  | Return first element           |
+
+##### RDD Transformations
 These create a new RDD from an existing one.
 
 | [[spark.map(func).png\|map(func)]]                 | Apply function to each element               |
@@ -78,9 +89,10 @@ These create a new RDD from an existing one.
 | sortByKey()                                        | Sort by keys                                 |
 | [[spark.join(otherRDD).png\|join(otherRDD)]]       | Join two key-value RDDs                      |
 | repartition(n)                                     | Re-distribute RDD to n partitions            |
+|                                                    |                                              |
+
 
 Transformations are **[[Lazy Evaluation|Lazy]]** – they only execute when an action is triggered.
 ![[Screenshot 2025-07-24 at 14.00.35.png|500]]
 
 > Related: [[Spark Core]]
-

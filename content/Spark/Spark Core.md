@@ -86,4 +86,6 @@ average = totalLength / lines.count()
 	- Actions like [[spark.collect().png|collect]], [[spark.count().png|count]] and [[spark.reduce(func).png|reduce]] **Output returns to Driver program .**
 	- [[spark.saveAsTextFile(path).png|saveAsTextFile]]'s output **divides into multiple files**, one for **each partition** of the [[RDD]].
 
+![[Apache Spark#Actions]]
+
 ![[Apache Spark#**RDD Transformations **]]

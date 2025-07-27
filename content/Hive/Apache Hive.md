@@ -25,6 +25,8 @@ aliases:
 - Hive stores metadatain DB
 - Map physical files to tables. 
 - Map fields (columns) to line structures in raw data.
+- Supports different data formats (e.g., text, JSON, Avro).
+- Hive uses a [[Hive MetaStore]] to manage metadata.
 
 ![[Screenshot 2025-07-23 at 18.25.32.png]]
 
