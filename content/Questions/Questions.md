@@ -1,6 +1,8 @@
 
 #flashcards
 
+### Big Data Quiz
+
 Question: Which of the following is NOT a design principle for Big Data systems?
 - A) Horizontal Growth (add more machines instead of stronger ones)
 - B) Distributed Processing (split work across machines)
