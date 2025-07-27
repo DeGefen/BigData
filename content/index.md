@@ -6,6 +6,11 @@
 
 ##### Quiz [[Questions]]
 
+<<<<<<< HEAD
+=======
+> ***Be aware*** that the notes are solely based on the slides themselves, with ChatGPT assisting in filling in the missing information!
+
+>>>>>>> 89f1bc403d75cf1ed71220afdb8c079bf00e56ea
 ##### Unit 1
 - [[Big Data Intro]]
 ##### Unit 2
