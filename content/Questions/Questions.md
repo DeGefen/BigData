@@ -9,7 +9,7 @@ Question: Which of the following is NOT a design principle for Big Data systems?
 - C) Process where Data is (move code to data, not data to code)
 - D) Centralized Processing (process all data on a single powerful machine)
 ?
-- Amswer: D) Centralized Processing (process all data on a single powerful machine)
+- Answer: D) Centralized Processing (process all data on a single powerful machine)
 Explanation: Big Data systems are designed to scale out and process data in a distributed way; centralizing processing on a single machine is not scalable or fault-tolerant. See: [[Big Data Intro]]
 
 Question: Which of the following is a key characteristic of NoSQL databases?
@@ -18,7 +18,7 @@ Question: Which of the following is a key characteristic of NoSQL databases?
 - C) Horizontal scalability
 - D) Only supports structured data
 ?
-- Amswer: C) Horizontal scalability
+- Answer: C) Horizontal scalability
 Explanation: NoSQL databases are designed to scale horizontally across many machines, making them suitable for big data workloads. See: [[NoSQL]]
 
 Question: What does ACID stand for in the context of RDBMS?
@@ -27,7 +27,7 @@ Question: What does ACID stand for in the context of RDBMS?
 - C) Atomicity, Concurrency, Isolation, Distribution
 - D) Availability, Consistency, Isolation, Durability
 ?
-- Amswer: A) Atomicity, Consistency, Isolation, Durability
+- Answer: A) Atomicity, Consistency, Isolation, Durability
 Explanation: ACID properties ensure reliable transactions in relational databases. See: [[RDBMS]]
 <!--SR:!2025-07-28,1,150-->
 
@@ -37,7 +37,7 @@ Question: Which of the following is NOT a type of NoSQL database?
 - C) Wide Column Store
 - D) Relational Store
 ?
-- Amswer: D) Relational Store
+- Answer: D) Relational Store
 Explanation: Relational stores are traditional RDBMS, not NoSQL. NoSQL types include key-value, document, wide column, and graph databases. See: [[NoSQL]]
 <!--SR:!2025-07-28,1,156-->
 
@@ -47,7 +47,7 @@ Question: Which of the following is a benefit of using a Data Lake?
 - C) Requires data to be cleaned before storage
 - D) Only accessible to business analysts
 ?
-- Amswer: B) Schema-on-read flexibility
+- Answer: B) Schema-on-read flexibility
 Explanation: Data lakes allow you to define the schema when you read the data, making them flexible for storing raw, unprocessed data. See: [[Data Lake]]
 
 Question: Which operation is NOT part of CRUD in databases?
@@ -56,7 +56,7 @@ Question: Which operation is NOT part of CRUD in databases?
 - C) Update
 - D) Distribute
 ?
-- Amswer: D) Distribute
+- Answer: D) Distribute
 Explanation: CRUD stands for Create, Read, Update, and Delete—the four basic operations of persistent storage. 'Distribute' is not one of them. See: [[RDBMS]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -66,7 +66,7 @@ Question: Which of the following is a drawback of NoSQL databases?
 - C) Only supports SQL
 - D) Only for small data
 ?
-- Amswer: B) Lack of ACID transactions
+- Answer: B) Lack of ACID transactions
 Explanation: Many NoSQL databases sacrifice ACID properties for scalability and flexibility, which can be a drawback for some applications. See: [[NoSQL]]
 <!--SR:!2025-07-28,1,160-->
 
@@ -76,7 +76,7 @@ Question: Which technology is designed for real-time processing of continuous da
 - C) Data Streaming
 - D) RDBMS
 ?
-- Amswer: C) Data Streaming
+- Answer: C) Data Streaming
 Explanation: Data streaming enables real-time processing of fast, continuous data flows, often using tools like Apache Kafka. See: [[Data Streaming]]
 
 Question: Which of the following is NOT a benefit of Apache Spark over Hadoop MapReduce?
@@ -85,7 +85,7 @@ Question: Which of the following is NOT a benefit of Apache Spark over Hadoop Ma
 - C) Only supports batch processing
 - D) Fault tolerance
 ?
-- Amswer: C) Only supports batch processing
+- Answer: C) Only supports batch processing
 Explanation: Spark supports both batch and streaming analytics, while Hadoop MapReduce is limited to batch. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,130-->
 
@@ -95,7 +95,7 @@ Question: Which of the following is an example of a message queue solution?
 - C) Apache Hive
 - D) Amazon Redshift
 ?
-- Amswer: B) IBM MQ
+- Answer: B) IBM MQ
 Explanation: IBM MQ is a message queue solution used for asynchronous communication between services. See: [[Data Streaming]]
 <!--SR:!2025-07-28,1,142-->
 
@@ -105,7 +105,7 @@ Question: What is the main storage type used in Data Lakes?
 - C) Indexes
 - D) Graphs
 ?
-- Amswer: B) Object Storage
+- Answer: B) Object Storage
 Explanation: Data lakes use object storage (like Amazon S3) to store raw, unprocessed data in its native format. See: [[Data Lake]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -115,7 +115,7 @@ Question: Which of the following is NOT a use case for data streaming?
 - C) Corrective actions
 - D) Batch reporting only
 ?
-- Amswer: D) Batch reporting only
+- Answer: D) Batch reporting only
 Explanation: Data streaming is used for real-time and event-driven use cases, not for traditional batch reporting. See: [[Data Streaming]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -125,7 +125,7 @@ Question: Which of the following is a feature of RDBMS?
 - C) Only unstructured data
 - D) No support for SQL
 ?
-- Amswer: B) ACID transactions
+- Answer: B) ACID transactions
 Explanation: RDBMSs provide ACID-compliant transactions for reliable data management. See: [[RDBMS]]
 <!--SR:!2025-07-28,1,150-->
 
@@ -135,7 +135,7 @@ Question: Which of the following is a type of NoSQL database?
 - C) Index Database
 - D) File Database
 ?
-- Amswer: A) Graph Database
+- Answer: A) Graph Database
 Explanation: Graph databases are a type of NoSQL database, along with key-value, document, and wide column stores. See: [[NoSQL]]
 <!--SR:!2025-07-28,1,168-->
 
@@ -145,7 +145,7 @@ Question: Which of the following is a challenge of distributed databases?
 - C) Simpler to design for scale
 - D) Horizontal scalability
 ?
-- Amswer: B) Lack of ACID transactions
+- Answer: B) Lack of ACID transactions
 Explanation: Distributed databases often sacrifice ACID guarantees for scalability and availability. See: [[NoSQL]]
 
 Question: Which of the following is NOT a benefit of NoSQL?
@@ -154,7 +154,7 @@ Question: Which of the following is NOT a benefit of NoSQL?
 - C) Suitable where RDBMS is limited
 - D) One size fits all solution
 ?
-- Amswer: D) One size fits all solution
+- Answer: D) One size fits all solution
 Explanation: NoSQL databases are not a one-size-fits-all solution; each type is designed for specific use cases. See: [[NoSQL]]
 
 Question: Which of the following is a key attribute of a Data Lake?
@@ -163,7 +163,7 @@ Question: Which of the following is a key attribute of a Data Lake?
 - C) Requires predefined schema
 - D) Only for business analysts
 ?
-- Amswer: B) Uses object storage
+- Answer: B) Uses object storage
 Explanation: Data lakes use object storage to store large volumes of raw data. See: [[Data Lake]]
 
 Question: Which of the following is NOT a feature of Apache Spark?
@@ -172,7 +172,7 @@ Question: Which of the following is NOT a feature of Apache Spark?
 - C) Only supports SQL
 - D) Fault tolerance
 ?
-- Amswer: C) Only supports SQL
+- Answer: C) Only supports SQL
 Explanation: Spark supports SQL, streaming, machine learning, and graph processing, not just SQL. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -182,7 +182,7 @@ Question: Which of the following is a common action in Spark?
 - C) insertRow()
 - D) createIndex()
 ?
-- Amswer: A) collect()
+- Answer: A) collect()
 Explanation: collect() is a Spark action that returns all elements of an RDD as a list. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,160-->
 
@@ -192,7 +192,7 @@ Question: Which of the following is a transformation in Spark?
 - C) count()
 - D) first()
 ?
-- Amswer: A) map(func)
+- Answer: A) map(func)
 Explanation: map(func) is a transformation that applies a function to each element of an RDD. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -202,7 +202,7 @@ Question: Which of the following is NOT a benefit of Spark over Hadoop MapReduce
 - C) Only supports Java
 - D) Unified engine for batch, stream, ML, graph
 ?
-- Amswer: C) Only supports Java
+- Answer: C) Only supports Java
 Explanation: Spark supports multiple languages (Python, Scala, Java, R), not just Java. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,156-->
 
@@ -212,7 +212,7 @@ Question: Which of the following is a benefit of using message queues?
 - C) Only for batch jobs
 - D) No support for scaling
 ?
-- Amswer: B) Asynchronous communication
+- Answer: B) Asynchronous communication
 Explanation: Message queues enable asynchronous communication between distributed systems. See: [[Data Streaming]]
 <!--SR:!2025-07-28,1,130-->
 
@@ -222,7 +222,7 @@ Question: Which of the following is a feature of Data Warehouses?
 - C) Only for data scientists
 - D) Uses object storage
 ?
-- Amswer: B) Used for predefined reports and BI
+- Answer: B) Used for predefined reports and BI
 Explanation: Data warehouses are optimized for structured, cleaned data and business intelligence. See: [[Data Lake]]
 
 Question: Which of the following is NOT a type of RDD transformation in Spark?
@@ -231,7 +231,7 @@ Question: Which of the following is NOT a type of RDD transformation in Spark?
 - C) collect()
 - D) flatMap(func)
 ?
-- Amswer: C) collect()
+- Answer: C) collect()
 Explanation: collect() is an action, not a transformation, in Spark. See: [[Apache Spark]]
 
 Question: Which of the following is a key difference between Data Lake and Data Warehouse?
@@ -240,7 +240,7 @@ Question: Which of the following is a key difference between Data Lake and Data 
 - C) Data Lake allows schema-on-read
 - D) Data Warehouse is for open-ended analysis
 ?
-- Amswer: C) Data Lake allows schema-on-read
+- Answer: C) Data Lake allows schema-on-read
 Explanation: Data lakes allow you to define the schema when you read the data, unlike data warehouses. See: [[Data Lake]]
 <!--SR:!2025-07-28,1,148-->
 
@@ -250,7 +250,7 @@ Question: Which of the following is NOT a benefit of distributed databases?
 - C) Horizontal scalability
 - D) Guaranteed ACID transactions
 ?
-- Amswer: D) Guaranteed ACID transactions
+- Answer: D) Guaranteed ACID transactions
 Explanation: Distributed databases often trade off ACID guarantees for scalability and availability. See: [[NoSQL]]
 
 Question: Which of the following is a benefit of using Spark's in-memory computation?
@@ -259,7 +259,7 @@ Question: Which of the following is a benefit of using Spark's in-memory computa
 - C) More disk usage
 - D) Only supports batch jobs
 ?
-- Amswer: B) Faster data processing
+- Answer: B) Faster data processing
 Explanation: In-memory computation allows Spark to process data much faster than disk-based systems. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -269,7 +269,7 @@ Question: Which of the following is a use case for real-time dashboards?
 - C) Data archiving
 - D) Data cleaning
 ?
-- Amswer: A) Monitoring incoming network issues
+- Answer: A) Monitoring incoming network issues
 Explanation: Real-time dashboards are a common use case for data streaming and event-driven architectures. See: [[Data Streaming]]
 
 Question: Which of the following is NOT a type of NoSQL database?
@@ -278,7 +278,7 @@ Question: Which of the following is NOT a type of NoSQL database?
 - C) Wide Column Store
 - D) Table Store
 ?
-- Amswer: D) Table Store
+- Answer: D) Table Store
 Explanation: Table Store is not a standard NoSQL type; the main types are key-value, document, wide column, and graph. See: [[NoSQL]]
 
 Question: Which of the following is a benefit of using Data Lakes for ML pipelines?
@@ -287,7 +287,7 @@ Question: Which of the following is a benefit of using Data Lakes for ML pipelin
 - C) Requires predefined schema
 - D) Only for business analysts
 ?
-- Amswer: B) Allows flexible data access
+- Answer: B) Allows flexible data access
 Explanation: Data lakes are ideal for ML pipelines because they store raw data and allow flexible access. See: [[Data Lake]]
 
 Question: Which of the following is a feature of Spark's RDDs?
@@ -296,7 +296,7 @@ Question: Which of the following is a feature of Spark's RDDs?
 - C) Only stored on disk
 - D) Only for SQL queries
 ?
-- Amswer: B) Immutable, partitioned collections
+- Answer: B) Immutable, partitioned collections
 Explanation: RDDs in Spark are immutable and partitioned, supporting distributed processing. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,168-->
 
@@ -306,7 +306,7 @@ Question: Which of the following is NOT a benefit of using message queues?
 - C) All consumers receive the same message in work queue
 - D) Decoupling of services
 ?
-- Amswer: C) All consumers receive the same message in work queue
+- Answer: C) All consumers receive the same message in work queue
 Explanation: In a work queue, each consumer gets a different message; only publish-subscribe delivers to all. See: [[Data Streaming]]
 <!--SR:!2025-07-28,1,136-->
 
@@ -316,7 +316,7 @@ Question: Which of the following is a benefit of using Spark's lineage graph?
 - C) Only for batch jobs
 - D) Requires manual intervention
 ?
-- Amswer: B) Efficient recovery from node failures
+- Answer: B) Efficient recovery from node failures
 Explanation: Spark's lineage graph allows it to recompute lost data partitions automatically. See: [[Apache Spark]]
 <!--SR:!2025-07-28,1,150-->
 
@@ -326,7 +326,7 @@ Question: Which of the following is NOT a feature of RDBMS?
 - C) No support for SQL
 - D) Indexes for fast searching
 ?
-- Amswer: C) No support for SQL
+- Answer: C) No support for SQL
 Explanation: RDBMSs are defined by their support for SQL and structured data. See: [[RDBMS]]
 
 Question: Which of the following is a benefit of using Data Lakes?
@@ -335,7 +335,7 @@ Question: Which of the following is a benefit of using Data Lakes?
 - C) Requires predefined schema
 - D) Only for business analysts
 ?
-- Amswer: B) Stores raw, unprocessed data
+- Answer: B) Stores raw, unprocessed data
 Explanation: Data lakes are designed to store raw, unprocessed data in its native format. See: [[Data Lake]]
 <!--SR:!2025-07-28,1,168-->
 
@@ -345,7 +345,7 @@ Question: Which of the following is a feature of Spark's lazy evaluation?
 - C) No support for transformations
 - D) Only for SQL queries
 ?
-- Amswer: B) Transformations execute only when an action is triggered
+- Answer: B) Transformations execute only when an action is triggered
 Explanation: Spark uses lazy evaluation, so transformations are only computed when an action is called. See: [[Apache Spark]]
 
 Question: Which of the following is NOT a benefit of using NoSQL databases?
@@ -354,7 +354,7 @@ Question: Which of the following is NOT a benefit of using NoSQL databases?
 - C) Suitable where RDBMS is limited
 - D) Guaranteed ACID transactions
 ?
-- Amswer: D) Guaranteed ACID transactions
+- Answer: D) Guaranteed ACID transactions
 Explanation: NoSQL databases often trade off ACID guarantees for scalability and flexibility. See: [[NoSQL]]
 
 Question: Which of the following is a feature of Data Warehouses?
@@ -363,7 +363,7 @@ Question: Which of the following is a feature of Data Warehouses?
 - C) Uses object storage
 - D) Only stores raw data
 ?
-- Amswer: A) Stores cleaned, organized data
+- Answer: A) Stores cleaned, organized data
 Explanation: Data warehouses store cleaned, structured data for analysis and reporting. See: [[Data Lake]]
 <!--SR:!2025-07-28,1,142-->
 
@@ -373,7 +373,7 @@ Question: Which of the following is a benefit of using Spark over Hadoop MapRedu
 - C) No support for streaming
 - D) Only for Java
 ?
-- Amswer: A) In-memory computation
+- Answer: A) In-memory computation
 Explanation: Spark's in-memory computation makes it much faster than Hadoop MapReduce for many workloads. See: [[Apache Spark]]
 
 Question: Which of the following is a feature of message queues?
@@ -382,7 +382,7 @@ Question: Which of the following is a feature of message queues?
 - C) Only for batch jobs
 - D) No support for scaling
 ?
-- Amswer: B) Asynchronous communication
+- Answer: B) Asynchronous communication
 Explanation: Message queues enable asynchronous, decoupled communication between distributed systems. See: [[Data Streaming]]
 
 Question: Which of the following is NOT a type of Spark action?
@@ -391,7 +391,7 @@ Question: Which of the following is NOT a type of Spark action?
 - C) map(func)
 - D) saveAsTextFile(path)
 ?
-- Amswer: C) map(func)
+- Answer: C) map(func)
 Explanation: map(func) is a transformation, not an action, in Spark. See: [[Apache Spark]]
 
 Question: Which of the following is a benefit of using Data Lakes for data scientists?
@@ -400,7 +400,7 @@ Question: Which of the following is a benefit of using Data Lakes for data scien
 - C) Requires predefined schema
 - D) Only for business analysts
 ?
-- Amswer: B) Allows flexible, schema-on-read access
+- Answer: B) Allows flexible, schema-on-read access
 Explanation: Data lakes allow data scientists to define the schema at read time, supporting flexible analysis. See: [[Data Lake]]
 
 Question: Which of the following is a feature of Spark's RDDs?
@@ -409,7 +409,7 @@ Question: Which of the following is a feature of Spark's RDDs?
 - C) Only stored on disk
 - D) Only for SQL queries
 ?
-- Amswer: B) Immutable, partitioned collections
+- Answer: B) Immutable, partitioned collections
 Explanation: Spark RDDs are immutable and partitioned, supporting distributed, fault-tolerant processing. See: [[Apache Spark]]
 
 Question: Which of the following is NOT a benefit of using distributed databases?
@@ -418,7 +418,7 @@ Question: Which of the following is NOT a benefit of using distributed databases
 - C) Horizontal scalability
 - D) Guaranteed ACID transactions
 ?
-- Amswer: D) Guaranteed ACID transactions
+- Answer: D) Guaranteed ACID transactions
 Explanation: Distributed databases often trade off ACID guarantees for scalability and availability. See: [[NoSQL]]
 <!--SR:!2025-07-28,1,156-->
 
@@ -428,7 +428,7 @@ Question: Which of the following is a benefit of using Spark's in-memory computa
 - C) More disk usage
 - D) Only supports batch jobs
 ?
-- Amswer: B) Faster data processing
+- Answer: B) Faster data processing
 Explanation: Spark's in-memory computation allows for much faster data processing than disk-based systems. See: [[Apache Spark]]
 
 Question: Which of the following is a use case for real-time dashboards?
@@ -437,7 +437,7 @@ Question: Which of the following is a use case for real-time dashboards?
 - C) Data archiving
 - D) Data cleaning
 ?
-- Amswer: A) Monitoring incoming network issues
+- Answer: A) Monitoring incoming network issues
 Explanation: Real-time dashboards are a key use case for data streaming and event-driven architectures. See: [[Data Streaming]]
 <!--SR:!2025-07-28,1,168-->
 
@@ -447,7 +447,7 @@ Question: Which Hadoop component is responsible for storing metadata about the f
 - C) ResourceManager
 - D) NodeManager
 ?
-- Amswer: B) NameNode
+- Answer: B) NameNode
 Explanation: The NameNode manages the metadata and namespace of the Hadoop Distributed File System (HDFS). See: [[HDFS]]
 <!--SR:!2025-07-28,1,156-->
 
@@ -457,7 +457,7 @@ Question: In HDFS, what is the default replication factor for data blocks, and w
 - C) 3, for fault tolerance
 - D) 5, for high throughput
 ?
-- Amswer: C) 3, for fault tolerance
+- Answer: C) 3, for fault tolerance
 Explanation: HDFS replicates each data block three times by default to ensure fault tolerance and data availability. See: [[HDFS]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -467,7 +467,7 @@ Question: Which of the following is NOT a design principle of HDFS?
 - C) Mutable files
 - D) Prefer large files
 ?
-- Amswer: C) Mutable files
+- Answer: C) Mutable files
 Explanation: HDFS files are immutable after creation; you cannot modify them in place. See: [[HDFS]]
 
 Question: Which file format in HDFS is optimized for columnar storage and compression?
@@ -476,7 +476,7 @@ Question: Which file format in HDFS is optimized for columnar storage and compre
 - C) ORC
 - D) Sequence File
 ?
-- Amswer: C) ORC
+- Answer: C) ORC
 Explanation: ORC (Optimized Row Columnar) is a columnar storage format designed for efficient storage and compression in HDFS. See: [[HDFS]]
 <!--SR:!2025-07-28,1,130-->
 
@@ -486,7 +486,7 @@ Question: What is the main function of Apache Hive in the Hadoop ecosystem?
 - C) Distributed file storage
 - D) In-memory computation
 ?
-- Amswer: B) SQL-like querying of large datasets
+- Answer: B) SQL-like querying of large datasets
 Explanation: Apache Hive provides a SQL-like interface for querying data stored in Hadoop. See: [[Apache Hive]]
 
 Question: Which of the following is a disadvantage of using Hive for analytics?
@@ -495,7 +495,7 @@ Question: Which of the following is a disadvantage of using Hive for analytics?
 - C) Slow response time due to MapReduce
 - D) Supports metadata management
 ?
-- Amswer: C) Slow response time due to MapReduce
+- Answer: C) Slow response time due to MapReduce
 Explanation: Hive queries are translated into MapReduce jobs, which can be slow for interactive analytics. See: [[Apache Hive]]
 
 Question: In Hive, what is the purpose of partitions?
@@ -504,7 +504,7 @@ Question: In Hive, what is the purpose of partitions?
 - C) To replicate data
 - D) To compress data
 ?
-- Amswer: B) To split data logically for faster queries
+- Answer: B) To split data logically for faster queries
 Explanation: Partitions in Hive allow for faster queries by logically splitting data based on column values. See: [[Apache Hive]]
 <!--SR:!2025-07-28,1,140-->
 
@@ -514,7 +514,7 @@ Question: Which AWS service is designed for object storage and is used as the ba
 - C) Amazon RDS
 - D) Amazon DynamoDB
 ?
-- Amswer: B) Amazon S3
+- Answer: B) Amazon S3
 Explanation: Amazon S3 is a scalable object storage service commonly used for data lakes. See: [[Amazon S3]]
 
 Question: What is an AWS Availability Zone (AZ)?
@@ -523,7 +523,7 @@ Question: What is an AWS Availability Zone (AZ)?
 - C) A global network of edge locations
 - D) A virtual private cloud
 ?
-- Amswer: B) A logical group of one or more physically isolated data centers
+- Answer: B) A logical group of one or more physically isolated data centers
 Explanation: An AWS Availability Zone consists of one or more physically isolated data centers within a region. See: [[AWS Cloud Services]]
 
 Question: Which AWS pricing model offers the lowest cost for long-term, predictable workloads?
@@ -532,7 +532,7 @@ Question: Which AWS pricing model offers the lowest cost for long-term, predicta
 - C) Free tier
 - D) On-demand
 ?
-- Amswer: B) Reserved pricing
+- Answer: B) Reserved pricing
 Explanation: Reserved pricing offers discounts for long-term commitments, making it cost-effective for predictable workloads. See: [[AWS Cloud Services]]
 
 Question: Which AWS service is best suited for running serverless code in response to events?
@@ -541,7 +541,7 @@ Question: Which AWS service is best suited for running serverless code in respon
 - C) Amazon S3
 - D) Amazon RDS
 ?
-- Amswer: B) Amazon Lambda
+- Answer: B) Amazon Lambda
 Explanation: AWS Lambda is a serverless compute service that runs code in response to events. See: [[Amazon Lambda]]
 
 Question: Which of the following best describes the CAP Theorem?
@@ -550,7 +550,7 @@ Question: Which of the following best describes the CAP Theorem?
 - C) A distributed system must sacrifice partition tolerance
 - D) A distributed system always guarantees consistency
 ?
-- Amswer: B) A distributed system can only guarantee two out of three: Consistency, Availability, Partition Tolerance
+- Answer: B) A distributed system can only guarantee two out of three: Consistency, Availability, Partition Tolerance
 Explanation: The CAP Theorem states that a distributed system can only guarantee two of the three: Consistency, Availability, and Partition Tolerance. See: [[CAP Theorem]]
 <!--SR:!2025-07-28,1,160-->
 
@@ -560,7 +560,7 @@ Question: In the context of the CAP Theorem, what does "eventual consistency" me
 - C) The system becomes consistent after some time
 - D) The system never becomes consistent
 ?
-- Amswer: C) The system becomes consistent after some time
+- Answer: C) The system becomes consistent after some time
 Explanation: Eventual consistency means that, given enough time, all updates will propagate and all nodes will become consistent. See: [[CAP Theorem]]
 
 Question: Which of the following is a scenario where partition tolerance is a must in distributed systems?
@@ -569,7 +569,7 @@ Question: Which of the following is a scenario where partition tolerance is a mu
 - C) The system is single-node only
 - D) Data is never replicated
 ?
-- Amswer: B) Network failures can occur between nodes
+- Answer: B) Network failures can occur between nodes
 Explanation: Partition tolerance is essential when network failures can occur between distributed nodes. See: [[CAP Theorem]]
 
 Question: Which command uploads a local file to HDFS?
@@ -578,7 +578,7 @@ Question: Which command uploads a local file to HDFS?
 - C) hadoop fs -copyFromLocal
 - D) hadoop fs -get
 ?
-- Amswer: C) hadoop fs -copyFromLocal
+- Answer: C) hadoop fs -copyFromLocal
 Explanation: The hadoop fs -copyFromLocal command uploads a local file to the Hadoop Distributed File System. See: [[HDFS]]
 
 Question: What is the main role of DataNodes in HDFS?
@@ -587,7 +587,7 @@ Question: What is the main role of DataNodes in HDFS?
 - C) Manage user permissions
 - D) Schedule MapReduce jobs
 ?
-- Amswer: B) Store actual data blocks
+- Answer: B) Store actual data blocks
 Explanation: DataNodes in HDFS are responsible for storing the actual data blocks of files. See: [[HDFS]]
 
 Question: Which of the following is NOT a benefit of AWS global infrastructure?
@@ -596,7 +596,7 @@ Question: Which of the following is NOT a benefit of AWS global infrastructure?
 - C) Unlimited capacity
 - D) Manual failover only
 ?
-- Amswer: D) Manual failover only
+- Answer: D) Manual failover only
 Explanation: AWS global infrastructure is designed for high availability and automatic failover, not manual failover. See: [[AWS Cloud Services]]
 
 Question: Which AWS service is a managed NoSQL database?
@@ -605,7 +605,7 @@ Question: Which AWS service is a managed NoSQL database?
 - C) Amazon DynamoDB
 - D) Amazon Aurora
 ?
-- Amswer: C) Amazon DynamoDB
+- Answer: C) Amazon DynamoDB
 Explanation: Amazon DynamoDB is a fully managed NoSQL database service provided by AWS. See: [[Amazon DynamoDB]]
 <!--SR:!2025-07-28,1,156-->
 
@@ -615,7 +615,7 @@ Question: Which of the following is a key difference between HDFS and a traditio
 - C) HDFS is only for small files
 - D) HDFS does not support directories
 ?
-- Amswer: B) HDFS supports unlimited file size and block replication
+- Answer: B) HDFS supports unlimited file size and block replication
 Explanation: HDFS is designed for large-scale storage with unlimited file size and block replication for fault tolerance. See: [[HDFS]]
 
 Question: Which of the following is a limitation of HDFS?
@@ -624,7 +624,7 @@ Question: Which of the following is a limitation of HDFS?
 - C) Does not support replication
 - D) Only works on Windows
 ?
-- Amswer: B) Not suitable for small files
+- Answer: B) Not suitable for small files
 Explanation: HDFS is optimized for large files; storing many small files can degrade performance. See: [[HDFS]]
 
 Question: Which of the following best describes the function of the Hive MetaStore?
@@ -633,7 +633,7 @@ Question: Which of the following best describes the function of the Hive MetaSto
 - C) Schedules MapReduce jobs
 - D) Handles user authentication
 ?
-- Amswer: B) Manages metadata for Hive tables
+- Answer: B) Manages metadata for Hive tables
 Explanation: The Hive MetaStore manages metadata and schema information for Hive tables. See: [[Hive MetaStore]]
 <!--SR:!2025-07-28,1,168-->
 
@@ -643,7 +643,7 @@ Question: Which AWS service is best for running relational databases in the clou
 - C) Amazon RDS
 - D) Amazon DynamoDB
 ?
-- Amswer: C) Amazon RDS
+- Answer: C) Amazon RDS
 Explanation: Amazon RDS is a managed relational database service in AWS. See: [[Amazon RDS]]
 
 Question: Which of the following is a key advantage of using partitions in Hive tables?
@@ -652,7 +652,7 @@ Question: Which of the following is a key advantage of using partitions in Hive 
 - C) Reduces storage cost
 - D) Eliminates the need for metadata
 ?
-- Amswer: B) Speeds up query performance
+- Answer: B) Speeds up query performance
 Explanation: Partitioning in Hive allows for faster query performance by logically splitting data. See: [[Apache Hive]]
 <!--SR:!2025-07-28,1,148-->
 
@@ -662,7 +662,7 @@ Question: Which of the following is NOT a core component of Hadoop?
 - C) Yarn
 - D) Hive
 ?
-- Amswer: D) Hive
+- Answer: D) Hive
 Explanation: Hive is a data warehouse system built on top of Hadoop, not a core component. See: [[Hadoop]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -672,7 +672,7 @@ Question: Which AWS service is designed for high-performance, in-memory caching?
 - C) Amazon RDS
 - D) Amazon Redshift
 ?
-- Amswer: B) Amazon ElastiCache
+- Answer: B) Amazon ElastiCache
 Explanation: Amazon ElastiCache is a managed in-memory caching service for high performance. See: [[AWS Cloud Services]]
 <!--SR:!2025-07-28,1,140-->
 
@@ -682,7 +682,7 @@ Question: Which of the following is a key benefit of using edge locations in AWS
 - C) Lower compute costs
 - D) More database options
 ?
-- Amswer: B) Reduced latency for end users
+- Answer: B) Reduced latency for end users
 Explanation: Edge locations in AWS bring content closer to users, reducing latency. See: [[AWS Cloud Services]]
 
 Question: Which of the following is a valid use case for Amazon Lambda?
@@ -691,7 +691,7 @@ Question: Which of the following is a valid use case for Amazon Lambda?
 - C) Hosting a relational database
 - D) Storing large files
 ?
-- Amswer: B) Processing events in a serverless architecture
+- Answer: B) Processing events in a serverless architecture
 Explanation: AWS Lambda is designed for event-driven, serverless computing. See: [[Amazon Lambda]]
 <!--SR:!2025-07-28,1,162-->
 
@@ -701,7 +701,7 @@ Question: Which of the following is a key difference between Hive and traditiona
 - C) Hive does not support metadata
 - D) Hive is not open source
 ?
-- Amswer: B) Hive stores data in HDFS and translates queries to MapReduce
+- Answer: B) Hive stores data in HDFS and translates queries to MapReduce
 Explanation: Hive translates SQL queries into MapReduce jobs to process data stored in HDFS. See: [[Apache Hive]]
 
 Question: Which of the following is NOT a valid HDFS file format?
@@ -710,7 +710,7 @@ Question: Which of the following is NOT a valid HDFS file format?
 - C) Avro
 - D) JSON Table
 ?
-- Amswer: D) JSON Table
+- Answer: D) JSON Table
 Explanation: JSON Table is not a standard HDFS file format; common formats include Parquet, ORC, and Avro. See: [[HDFS]]
 <!--SR:!2025-07-28,1,140-->
 
@@ -720,7 +720,7 @@ Question: Which AWS service is best for running containerized applications?
 - C) Amazon S3
 - D) Amazon RDS
 ?
-- Amswer: B) Amazon ECS
+- Answer: B) Amazon ECS
 Explanation: Amazon ECS (Elastic Container Service) is AWS's managed service for running containerized applications. See: [[AWS Cloud Services]]
 <!--SR:!2025-07-28,1,130-->
 
