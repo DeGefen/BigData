@@ -3,6 +3,9 @@
 > Written using [Obsidian](https://obsidian.md/). To access and edit the notes you can download the "content" directory from here [Github](https://github.com/DeGefen/BigData).
 
 > ***Be aware*** that the notes are **solely based** on the slides themselves, with ChatGPT assisting in filling in the missing information!
+
+##### Quiz [[Questions]]
+
 ##### Unit 1
 - [[Big Data Intro]]
 ##### Unit 2
