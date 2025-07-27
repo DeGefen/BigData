@@ -1,7 +1,7 @@
 
 #flashcards
 
-### Big Data Quiz
+#### Big Data Quiz
 
 Question: Which of the following is NOT a design principle for Big Data systems?
 - A) Horizontal Growth (add more machines instead of stronger ones)
